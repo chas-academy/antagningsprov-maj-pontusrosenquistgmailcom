@@ -5,12 +5,11 @@ function uppg9 (){
 
     function sort (numbers){
         for(number of numbers){
-            console.log(Number(number))
             if(number % 2 === 0){
-                console.log(`jämt`)
+                console.log(number + "jämt")
             }
             else{
-                console.log(`udda`)
+                console.log(number + "udda")
             }
         }
     }

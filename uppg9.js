@@ -6,10 +6,10 @@ function uppg9 (){
     function sort (numbers){
         for(number of numbers){
             if(number % 2 === 0){
-                console.log(`${number} jämt`)
+                console.log(`${number}jämt`)
             }
             else{
-                console.log(`${number} udda`)
+                console.log(`${number}udda`)
             }
         }
     }
@@ -19,7 +19,7 @@ function uppg9 (){
 
     // anropa funktionen och skicka med en array som argument
 
-    let myNumbers = [1,17,8,9,34,100,2582486428]
+    let myNumbers = [1,17,8,33,34,100,74]
 
     sort(myNumbers)
   

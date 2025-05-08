@@ -6,10 +6,10 @@ function uppg9 (){
     function sort (numbers){
         for(number of numbers){
             if(number % 2 === 0){
-                console.log(number + "jämt")
+                console.log(Number(number) + "jämt")
             }
             else{
-                console.log(number + "udda")
+                console.log(Number(number) + "udda")
             }
         }
     }

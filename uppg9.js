@@ -8,7 +8,7 @@ function uppg9 (){
             // i funktionen du loopa igenom arrayen och kolla med en if-sats om  talet är jämt eller udda
             //console.log(number)
             if(number % 2 === 0){
-                let tempObj = [number, "Jämt"]
+                let tempObj = [number, "jämt"]
                 console.log(...tempObj)
             }
             else{

@@ -6,11 +6,14 @@ function uppg9 (){
     function sort (numbers){
         for(number of numbers){
             // i funktionen du loopa igenom arrayen och kolla med en if-sats om  talet är jämt eller udda
+            //console.log(number)
             if(number % 2 === 0){
-                console.log(`${Number(number)} jämt`)
+                let tempObj = [number, "Jämt"]
+                console.log(...tempObj)
             }
             else{
-                console.log(`${Number(number)} jämt`)
+                let tempObj = [number, "udda"]
+                console.log(...tempObj)
             }
         }
     }

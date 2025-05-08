@@ -16,15 +16,15 @@ let person = [
 // skapa en fuktion som tar in en array som argument
 // skapa ett konditionsvillkor som gör att det bara är namnet på personerna som är
 //  över 30 år som skrivs ut i konsolen
-function ageDiscrimination(persons){
-    for(let name in persons){
+function sortByAge(persons){
+    for(let name of persons){
         if (name.age > 30){
             console.log(name.name)
         }
     }
 }
 // anropa funktionen och skicka med arrayen som argument
-ageDiscrimination(person)
+sortByAge(person)
 
 }
 

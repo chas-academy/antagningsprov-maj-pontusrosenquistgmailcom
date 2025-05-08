@@ -5,7 +5,7 @@ function uppg9 (){
 
     function sort (numbers){
         for(number of numbers){
-            console.log(number)
+            console.log(Number(number))
             if(number % 2 === 0){
                 console.log(`jämt`)
             }
